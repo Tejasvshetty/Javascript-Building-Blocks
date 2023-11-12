@@ -1,0 +1,43 @@
+touch index.html - adds a index.html file to the folder
+pwd - print working director - shows where you are
+mkdir example - creates a folder named example
+cd (change directory) - move to a different folder
+cd .. - goes up a folder
+cd ~ go back to home folder
+ls - shows all the files in a folder
+ls - la 
+    shows all the files in a folder including hidden
+rm
+     removes a file
+rm -r
+    removes a folder
+clear : clears what is current being displayed
+
+git init - Creates a special folder to hold all of your snapshots (commits)
+git add <file>
+    - adds file to staging area (not yet in special folder)
+git add*.html
+    - adds all html files to staging area (not yet in special folder)
+git add.
+    = adds everying to staging area
+git status
+    - shows everying in staging area
+git rm --cached index.html
+    - Removes index.html from staging area 
+git commit -m "text"
+    - Adds everything in staging to the special folder as a snapshot
+git branch -M main
+    -changes name of staging area to main
+git branch <name>
+    -Creates a new branch for you to make changes on without affecting the rest of your code
+git checkout <name>
+    -Moves you to a new brancg where you can make changes without affecting the rest of your code
+git checkout main
+    -Moves you back to main branch
+git merge <branch>
+    -Adds changes from other branch to main
+
+git config --global user.name 'Tejas Shetty'
+git config --global user.email 'tejasvshetty@email.com'
+git remote add origin https://github.com/Tejasvshetty/Javascript-Building-Blocks.git
+git push -u origin main

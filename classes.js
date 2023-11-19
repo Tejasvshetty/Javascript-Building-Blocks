@@ -8,12 +8,13 @@ class MakeCar
         }
         
         lock(){
-            alert(`Locked $(this.doors) doors!`)
+            console.log(`Locked ${this.doors} doors!`)
         }
     }
 let hondaCivic = new MakeCar('Honda', 'Civic', 'Silver', 4)
 let teslaRoadster = new MakeCar('Tesla', 'Roadser', 'Red', 2)
 
+hondaCivic.lock()
 teslaRoadster.bluetooth = true
 console.log (teslaRoadster.bluetooth) //true
 console.log (hondaCivic.bluetooth) //undefined
